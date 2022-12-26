@@ -66,3 +66,14 @@ Epoch 0003 of 0003, batch 1750 of 2188 === Loss: 0.1905
 Epoch 0003 of 0003, batch 2000 of 2188 === Loss: 0.1545
 
 Training accuracy: 99.43 === Valid accuracy: 92.38
+
+
+Included files and folders:
+
+imdb_BERT.ipynb - Jupyter notebook showing model fine-tuning and Gradio implementation
+
+model_save/ - directory containing the pre-trained and fine-tuned model and tokenizer files
+
+app.py - the Python script necessary to implement the Gradio app, e.g. on Hugging Face
+
+Note that this Gradio app is currently implemented and hosted here: https://huggingface.co/spaces/etweedy/movie_review_v2
